@@ -35,7 +35,7 @@ flags.DEFINE_integer('min_length', 2, 'the flow under this parameter will be fil
 flags.DEFINE_integer('max_packet_length', 5000, 'the largest packet length')
 flags.DEFINE_float('split_ratio', 0.8, 'ratio of train set of target app')
 flags.DEFINE_float('keep_ratio', 1, 'ratio of keeping the example (for small dataset test)')
-flags.DEFINE_integer('max_flow_length_train', 200, 'the max flow length, if larger, drop')
+flags.DEFINE_integer('max_flow_length_train', 2000, 'the max flow length, if larger, drop')
 flags.DEFINE_integer('max_flow_length_test', 2000, 'the max flow length, if larger, drop')
 flags.DEFINE_string('test_model_dir', log_dir, 'the model dir for test result')
 flags.DEFINE_string('pred_dir', pred_dir, 'the dir to save predict result')
